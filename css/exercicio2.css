@@ -9,7 +9,6 @@ body, html{
     justify-content: center;
     width: 200px;
     height: 200px;
-    border: solid 2px black;
     background-color: rgb(255, 136, 0);
 }
 .Quadrado:hover{

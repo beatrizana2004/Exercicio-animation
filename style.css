@@ -1,0 +1,39 @@
+*{
+    font-family: helvetica;
+}
+
+
+body{
+    background-color: rgb(53, 53, 53);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+header{
+    color: rgb(233, 135, 8);
+}
+
+section{
+    display: grid;
+    grid-template-columns: repeat(3,0fr);
+}
+
+
+a{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: rgb(167, 39, 39);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+a:visited{
+    text-decoration: none;
+}

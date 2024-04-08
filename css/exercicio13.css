@@ -31,14 +31,14 @@ body, html {
 }
 
 .quadrado1 {
-    animation-delay: 2s;
+    animation-delay: 0s;
 }
 
 .quadrado2 {
-    animation-delay: 4s;
+    animation-delay: 2s;
 }
 
 .quadrado3 {
-    animation-delay: 6s;
+    animation-delay: 4s;
 }
 
