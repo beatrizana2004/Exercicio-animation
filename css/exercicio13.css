@@ -1,0 +1,44 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 320px; 
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 136, 0);
+    animation: moveUpDown 4s infinite ease-in-out;
+}
+
+@keyframes moveUpDown {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-200px);
+    }
+}
+
+.quadrado1 {
+    animation-delay: 2s;
+}
+
+.quadrado2 {
+    animation-delay: 4s;
+}
+
+.quadrado3 {
+    animation-delay: 6s;
+}
+

@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    background-color: black;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: rgb(162, 26, 167);
+}
+
+div:hover {
+    animation: transform 1s forwards;
+}
+
+@keyframes transform {
+    100% {
+        border-radius: 0%;
+        width: 200px;
+        height: 100px;
+    }
+}

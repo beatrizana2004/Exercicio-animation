@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    background-color: black;
+}
+
+div {
+    width: 150px;
+    height: 150px;
+    background-color: yellow;
+    animation: pulsar 3s linear infinite;
+}
+
+@keyframes pulsar {
+
+    50%{
+        width: 300px;
+        height: 300px;
+        transform: rotate(180deg);
+    }
+    100%{
+        width: 150px;
+        height: 150px;
+        transform: rotate(360deg);
+    }
+}

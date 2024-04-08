@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    height: 800px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    background-image: url(https://pngimg.com/d/pokemon_logo_PNG12.png);
+    animation: mover 2s linear;
+}
+
+@keyframes mover {
+    0% {
+        justify-content: center;
+        align-items: center;
+    }
+
+    100% {
+        justify-content: flex-start;
+        align-items: flex-start;
+        transform: translate(100%);
+        width: 70px;
+        height: 70px;
+    }
+
+}
