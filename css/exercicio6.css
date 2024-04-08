@@ -1,0 +1,54 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    background-color: rgb(0, 0, 0);
+}
+
+div{
+    width: 200px;
+    height: 200px; 
+    background-color: rgb(101, 252, 0);
+    animation: mover 7s infinite linear;
+}
+
+@keyframes mover{
+    0%{
+        transform: rotate(0deg);
+        background-color: brown
+    }
+    12.5%{
+        transform: rotate(45deg);
+        background-color: purple
+    }
+    25%{
+        transform: rotate(90deg);
+        background-color: green
+    }
+    37.5%{
+        transform: rotate(135deg);
+        background-color: yellow
+    }
+    50%{
+        transform: rotate(180deg);
+        background-color: pink
+    }
+    62.5%{
+        transform: rotate(225deg);
+        background-color: white
+    }
+    75%{
+        transform: rotate(270deg);
+        background-color: grey
+    }
+    87.5%{
+        transform: rotate(315deg);
+        background-color: red
+    }
+    100%{
+        transform: rotate(360deg);
+        background-color: blueviolet;
+    }
+    }
+    

@@ -1,0 +1,29 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    background-color: black
+}
+
+.circle{
+    width: 200px;
+    height: 200px; 
+    background-color: rgb(18, 5, 128);
+    border-radius: 50%;
+    
+}
+
+.circle:hover{
+    animation: mod 1s forwards;
+}
+
+@keyframes mod{
+   
+    100%{
+        width: 500px;
+        height: 500px; 
+        background-color: rgb(13, 216, 24)
+
+    }
+}

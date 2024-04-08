@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    background-color: black;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    background-color: orangered;
+    border-radius: 50%;
+    animation: pulsar 2s linear 0.5s 3;
+}
+
+@keyframes pulsar {
+
+    50%{
+        width: 400px;
+        height: 400px;
+    }
+    100%{
+        width: 200px;
+        height: 200px;
+    }
+}

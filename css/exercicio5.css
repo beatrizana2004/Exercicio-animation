@@ -1,0 +1,20 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    background-color: rgb(26, 24, 24);
+}
+
+div{
+    width: 200px;
+    height: 200px; 
+    background-color: rgb(17, 133, 65);
+    animation: mover 3s infinite;
+}
+
+@keyframes mover{
+    100%{
+        transform: rotate(45deg);
+    }
+}

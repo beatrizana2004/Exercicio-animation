@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    background-color: rgb(0, 0, 0);
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(18, 7, 124);
+    border-radius: 50%;
+    animation: mover 4s infinite;
+}
+
+@keyframes mover {
+    100% {
+        transform: translateX(500px);
+    }
+}
